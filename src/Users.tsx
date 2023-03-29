@@ -1,3 +1,5 @@
+import { PencilLine, Trash } from "phosphor-react";
+
 export function Users() {
   return (
     <div className="mt-10 flex flex-col items-center">
@@ -19,6 +21,26 @@ export function Users() {
             <td>Kris</td>
             <td>Moraes de Almeida</td>
             <td>kris@icloud.com</td>
+            <td> <Trash size={20} /> </td>
+            <td> <PencilLine size={20} /> </td>
+          </tr>
+          <tr>
+            <td>0001</td>
+            <td>kris2005</td>
+            <td>Kris</td>
+            <td>Moraes de Almeida</td>
+            <td>kris@icloud.com</td>
+            <td> <Trash size={20} /> </td>
+            <td> <PencilLine size={20} /> </td>
+          </tr>
+          <tr>
+            <td>0001</td>
+            <td>kris2005</td>
+            <td>Kris</td>
+            <td>Moraes de Almeida</td>
+            <td>kris@icloud.com</td>
+            <td> <Trash size={20} /> </td>
+            <td> <PencilLine size={20} /> </td>
           </tr>
         </tbody>
       </table>

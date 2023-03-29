@@ -16,7 +16,7 @@ table {
     border-collapse:collapse;
     padding: 5px;
 }
-table th {
+table th:not(:nth-last-of-type(2)) {
     border:1px solid;
     padding: 5px;
 }
